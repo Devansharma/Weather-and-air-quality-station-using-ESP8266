@@ -3,15 +3,15 @@
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
-const char *ssid="Devansh mobile hotspot";
-const char *pass="123123123"; // your network password         
+const char *ssid="######"; //Enter the name of your network
+const char *pass="******"; // your network password         
 
 
 WiFiClient  client;
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
-unsigned long cID = 905283;          
-const char * ReadAPIKey = "55Y85SU49Q9JTE4J"; 
+unsigned long cID = ; //Write the channel ID on ThingSpeak          
+const char * ReadAPIKey = ""; //Write the Read API Key 
 const int FieldNumber1 = 1;
 const int FieldNumber2 = 2;
 const int FieldNumber3 = 3;
